@@ -287,3 +287,31 @@ body {
   background-color: #101d2c;
   grid-column: full-start / full-end;
   padding: 8rem; }
+  .footer .nav {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-gap: 2rem;
+    -webkit-box-align: center;
+    align-items: center; }
+    .footer .nav__link:link, .footer .nav__link:visited {
+      font-size: 1.4rem;
+      color: #fff;
+      text-decoration: none;
+      text-transform: uppercase;
+      text-align: center;
+      padding: 1.5rem;
+      display: block;
+      -webkit-transition: all 0.2s;
+      transition: all 0.2s; }
+    .footer .nav__link:hover, .footer .nav__link:active {
+      background-color: rgba(255, 255, 255, 0.05);
+      -webkit-transform: translateY(-3px);
+      transform: translateY(-3px); }
+  .footer .copyright {
+    font-size: 1.5rem;
+    color: #aaa;
+    margin: 6rem;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center; }
